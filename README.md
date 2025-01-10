@@ -24,6 +24,8 @@
    python run.py
 6. **Access the Application**  
    Open the link displayed in the console (e.g., `http://127.0.0.1:5000`) in your web browser.
+   
+   **Note**: The page is being updated dynamically every 20 seconds. As there is restricted rate limit on end point hits, the immediate reloading of page might cause network. so to notice the changes wait/reload after 5 minutes atleast
 
 ---
 
@@ -46,3 +48,8 @@
 - Ensure you are connected to a stable internet connection when using Google Colab.
 - For troubleshooting or additional help, refer to the documentation or contact the support team.
 - Always use the recommended tools and versions to avoid compatibility issues.
+
+---
+
+### API Integration:
+Explored a lot of documentations for fetching solana,base network price data but could find the only free api end point in "CoinGekho" (which is not dex specific)
